@@ -1,5 +1,4 @@
 import React from "react";
-import SharedDestination from "../destinationpages/SharedDestination"
 export default function Moon(props) {
   let moon = props.planet;
   return (
@@ -8,7 +7,6 @@ export default function Moon(props) {
         <img className="planet-img" src={props.img} alt="moon.name" />
       </div>
       <div className="planet-content">
-        <SharedDestination />
         <h2 className="planet-name">{moon.name}</h2>
         <p className="planet-description">{moon.description}</p>
         <div className="planet-line"> </div>
